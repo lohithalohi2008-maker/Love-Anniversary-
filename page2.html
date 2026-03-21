@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  text-align: center;
+  background: lightpink;
+  font-family: sans-serif;
+  padding: 20px;
+}
+h2 { font-size: 26px; }
+button {
+  padding: 15px 25px;
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Do you love me chellow? 🥺💚</h2>
+
+<button onclick="yes()">Yes 😍</button>
+<button onclick="no()">No 😏</button>
+
+<p id="msg"></p>
+
+<script>
+function yes(){
+  window.location.href = "page3.html";
+}
+
+function no(){
+  document.getElementById("msg").innerHTML = "Aiyo chellow 😤 try again 💚";
+}
+</script>
+
+</body>
+</html>
